@@ -1,0 +1,36 @@
+/* Vitovszki Tamás, 0358-as feladat, 2023.03.31 */
+body{
+    background-color:steelblue !important;
+}
+footer {
+    background-color:lightskyblue;
+}
+#result1 {
+    display: none;
+}
+#result2 {
+    display: none;
+}
+span{
+    font-weight: bolder;
+}
+#calcBtn{
+    background-color: lightskyblue;
+}
+#deleteBtn{
+    background-color:rgb(206, 0, 0);
+}
+img{
+    width: 250px;
+    height: 250px;
+    
+}
+.container{
+    border: 3px solid black;
+    border-radius: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        border: none;
+    }
+}
