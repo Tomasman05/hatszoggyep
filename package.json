@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jasmine-browser-runner runSpecs",
     "start": "lite-server",
-    "build:src": "copyfiles -u 1 src/**/*.{html,js,css} dist",
+    "build:src": "copyfiles -u 1 src/**/*.{html,js,css,png} dist",
     "build:bscss": "copyfiles -u 3 node_modules/bootstrap/dist/css/bootstrap.css dist",
     "build:bsjs": "copyfiles -u 3 node_modules/bootstrap/dist/js/bootstrap.js dist",
     "build": "npm-run-all build:src build:bscss build:bsjs",
